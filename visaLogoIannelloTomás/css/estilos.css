@@ -1,0 +1,85 @@
+@font-face {
+    font-family: Vera;
+    src: url(../fonts/VeraBI.ttf);
+}
+
+@font-face {
+    font-family: HelveticaCondensed;
+    src: url(../fonts/helvetica-medium-condensed.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Vera;
+    user-select: none;
+}
+
+.recuadro {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 700px;
+    height: 440px;
+    border: 9px solid #1b5c9c;
+    background-color: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal{
+    width: 660px;
+    height: 400px;
+    border: 20px solid #fff;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.azul{
+    width: 100%;
+    height: 90px;
+    background-color: #1e5c99;
+}
+
+.amarillo{
+    width: 100%;
+    height: 90px;
+    background-color: #e6a839;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.letras {
+    width: 100%;
+    height: 220px;
+    text-align: center;
+}
+
+.nombre {
+    color: #1e5c99;
+    font-size: 200px;
+}
+
+.marcaRegistrada {
+    font-family: HelveticaCondensed;
+    font-size: 23px;
+    color: #1e5c99;
+}
+
+.R1 {
+    position: absolute;
+    margin-bottom: 110px;
+    margin-left: 495px;
+}
+
+.R2 {
+    margin-top: 10px;
+    margin-right: 5px;
+}
